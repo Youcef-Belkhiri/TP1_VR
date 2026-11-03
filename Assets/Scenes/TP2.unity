@@ -863,6 +863,7 @@ MonoBehaviour:
   _proximityColor: {r: 0, g: 1, b: 0, a: 1}
   _scaleChangeCoef: 1.2
   _triggerThresholdDistance: 2
+  _angleThreshold: 20
 --- !u!4 &1541737314
 Transform:
   m_ObjectHideFlags: 0
