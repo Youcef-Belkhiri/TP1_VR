@@ -1,0 +1,5 @@
+C:/Users/hamza/Desktop/TITaN/Fondaments XR/TDM/1/TP1_VR/.utmp/Debug/466dj605/arm64-v8a/CMakeFiles/edit_cache.dir
+C:/Users/hamza/Desktop/TITaN/Fondaments XR/TDM/1/TP1_VR/.utmp/Debug/466dj605/arm64-v8a/CMakeFiles/rebuild_cache.dir
+C:/Users/hamza/Desktop/TITaN/Fondaments XR/TDM/1/TP1_VR/.utmp/Debug/466dj605/arm64-v8a/GameActivity/CMakeFiles/game.dir
+C:/Users/hamza/Desktop/TITaN/Fondaments XR/TDM/1/TP1_VR/.utmp/Debug/466dj605/arm64-v8a/GameActivity/CMakeFiles/edit_cache.dir
+C:/Users/hamza/Desktop/TITaN/Fondaments XR/TDM/1/TP1_VR/.utmp/Debug/466dj605/arm64-v8a/GameActivity/CMakeFiles/rebuild_cache.dir

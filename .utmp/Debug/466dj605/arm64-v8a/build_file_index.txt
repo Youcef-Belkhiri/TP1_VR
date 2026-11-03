@@ -1,0 +1,2 @@
+C:\Users\hamza\Desktop\TITaN\Fondaments XR\TDM\1\TP1_VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\CMakeLists.txt
+C:\Users\hamza\Desktop\TITaN\Fondaments XR\TDM\1\TP1_VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\GameActivity\CMakeLists.txt
