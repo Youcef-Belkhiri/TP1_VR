@@ -1,16 +1,22 @@
+using TMPro;
 using UnityEngine;
 
 public class FloatingMenu : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    private TextMeshPro _text;
+    private Camera _camera;
+
+    private void Start()
     {
-        
+        _text = GetComponentInChildren<TextMeshPro>();
+        _camera = Camera.main;
     }
 
-    // Update is called once per frame
-    void Update()
+    private void Update()
     {
+        _text.SetText($"Local: {transform.localPosition} \nGlobal: {transform.position}");
         
+        var directionToCam = transform.position - _camera.transform.position;
+        transform.rotation = Quaternion.LookRotation(directionToCam);
     }
 }
