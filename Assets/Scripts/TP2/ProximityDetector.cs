@@ -18,6 +18,7 @@ public class ProximityDetector : MonoBehaviour
     private LineRenderer[] _lineRenderers;
     private TextMeshPro _textMesh;
     
+    
     private void Start()
     {
         var cubesNum = _cubes.Length;
@@ -31,6 +32,7 @@ public class ProximityDetector : MonoBehaviour
             _originalColors[i] = _cubes[i].GetComponent<Renderer>().material.color;
             _originalScales[i] = _cubes[i].localScale;
 
+            // Creating line renderers for each cube
             var lineRenderer = _cubes[i].gameObject.AddComponent<LineRenderer>();
             lineRenderer.positionCount = 2;
             lineRenderer.startWidth = 0.01f;
@@ -40,11 +42,12 @@ public class ProximityDetector : MonoBehaviour
             _lineRenderers[i] = lineRenderer;
         }
 
+        // Creating text mesh
         _textMesh = new GameObject("3D Text").AddComponent<TextMeshPro>();
         _textMesh.transform.SetParent(_origin);
-        _textMesh.fontSize = 2;
+        _textMesh.fontSize = 1;
         _textMesh.alignment = TextAlignmentOptions.Center;
-        _textMesh.transform.localPosition = new Vector3(0, 0, 0.5f);
+        _textMesh.transform.localPosition = new Vector3(0, 0, 0.1f);
     }
     
     private void Update()
@@ -60,6 +63,7 @@ public class ProximityDetector : MonoBehaviour
             
             cubeMaterial.color = distance < _triggerThresholdDistance ? _proximityColor : _originalColors[i];
 
+            // Check the closest cube
             if (distance < closestDistance)
             {
                 closestDistance = distance;
@@ -70,6 +74,8 @@ public class ProximityDetector : MonoBehaviour
             _lineRenderers[i].enabled = false;
         }
         
+        
+        // Closest cube
         var direction = _cubes[closestCubeIndex].position - _origin.position;
         var angle = Vector3.Angle(direction, _origin.forward);
         
