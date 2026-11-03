@@ -61,6 +61,8 @@
     <Compile Include="Assets\Scripts\CollisionAudio.cs" />
     <Compile Include="Assets\VRTemplateAssets\Scripts\Callout.cs" />
     <Compile Include="Assets\VRTemplateAssets\Scripts\CalloutGazeController.cs" />
+    <Compile Include="Assets\Scripts\ProximityDetector.cs" />
+    <Compile Include="Assets\Scripts\ProximityDetector2.cs" />
     <Compile Include="Assets\VRTemplateAssets\Scripts\StepManager.cs" />
     <Compile Include="Assets\VRTemplateAssets\Scripts\AnchorVisuals.cs" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
