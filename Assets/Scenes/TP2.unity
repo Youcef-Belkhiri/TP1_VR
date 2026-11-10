@@ -616,7 +616,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1717954561962503726, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.178
       objectReference: {fileID: 0}
     - target: {fileID: 1717954561962503726, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2716,7 +2716,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2038747101}
   m_Layer: 0
-  m_Name: CUBES
+  m_Name: CUBES Exercices 0-3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
