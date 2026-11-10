@@ -25,7 +25,7 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 112}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
-  controlID: 40276
+  controlID: 41159
   draggingID: 0
 --- !u!114 &2
 MonoBehaviour:
@@ -154,7 +154,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 112}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 40224
+  controlID: 41295
   draggingID: 0
 --- !u!114 &4
 MonoBehaviour:
@@ -292,13 +292,7 @@ MonoBehaviour:
       m_ResourceFile: 
   m_AssetTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs:
-    - m_Data: -36058
-    - m_Data: -37638
-    - m_Data: -37832
-    - m_Data: -38928
-    - m_Data: -38930
-    - m_Data: -38932
+    m_SelectedIDs: []
     m_LastClickedID:
       m_Data: 0
     m_ExpandedIDs:
@@ -306,12 +300,8 @@ MonoBehaviour:
     - m_Data: 49754
     - m_Data: 49756
     - m_Data: 49758
-    - m_Data: 49760
-    - m_Data: 49762
     - m_Data: 49764
-    - m_Data: 49936
     - m_Data: 49958
-    - m_Data: 49964
     - m_Data: 70244
     - m_Data: 73580
     m_RenameOverlay:
@@ -340,14 +330,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs:
-    - m_Data: -36058
-    - m_Data: -37638
-    - m_Data: -37832
-    - m_Data: -38928
-    - m_Data: -38930
-    - m_Data: -38932
-    m_LastClickedInstanceID: -38932
+    m_SelectedInstanceIDs: []
+    m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: []
     m_RenameOverlay:
@@ -467,7 +451,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 112}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 0
-  controlID: 40277
+  controlID: 41160
   draggingID: 0
 --- !u!114 &9
 MonoBehaviour:
@@ -536,18 +520,10 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs:
-      - m_Data: -36058
-      - m_Data: -37638
-      - m_Data: -37832
-      - m_Data: -38928
-      - m_Data: -38930
-      - m_Data: -38932
+      m_SelectedIDs: []
       m_LastClickedID:
-        m_Data: -38932
+        m_Data: 0
       m_ExpandedIDs:
-      - m_Data: -45066
-      - m_Data: -44482
       - m_Data: -38930
       - m_Data: -11024
       - m_Data: -10998
@@ -567,7 +543,6 @@ MonoBehaviour:
       - m_Data: -3126
       - m_Data: -1340
       - m_Data: 63284
-      - m_Data: 63946
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -617,7 +592,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 112}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 40278
+  controlID: 41161
   draggingID: 0
 --- !u!114 &12
 MonoBehaviour:
@@ -1248,7 +1223,7 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: -0.10608901, y: -0.28718758, z: 0.0319635, w: -0.9516154}
     speed: 2
-    m_Value: {x: -0.10611005, y: -0.285999, z: 0.031831004, w: -0.95180464}
+    m_Value: {x: -0.10608901, y: -0.28718758, z: 0.0319635, w: -0.9516154}
   m_Size:
     m_Target: 0.34641004
     speed: 2

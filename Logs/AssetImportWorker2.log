@@ -2031,3 +2031,31 @@ Memory consumption went from 168.1 MB to 162.8 MB.
 Total: 31.442900 ms (FindLiveObjects: 1.134300 ms CreateObjectMapping: 1.747900 ms MarkObjects: 22.133000 ms  DeleteObjects: 6.426200 ms)
 
 Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 12200.562372 seconds.
+  path: Assets/Scripts/TP3/Projectile.cs
+  artifactKey: Guid(e5cbeee26cbe6cc48b4a7b853082936f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scripts/TP3/Projectile.cs using Guid(e5cbeee26cbe6cc48b4a7b853082936f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'cddcc90be2e61643cb01a624dd136694') in 0.8453149 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/Scripts/TP3/TargetExercice3.cs
+  artifactKey: Guid(6ce8ca64c4aa4dc47b5eea583ae2e194) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scripts/TP3/TargetExercice3.cs using Guid(6ce8ca64c4aa4dc47b5eea583ae2e194) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '45ff9a5324a03d051fb248dd05548c15') in 0.0613782 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+  artifactKey: Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset using Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'eedda01ae8c98dedc30a7a65a2404630') in 0.3311363 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

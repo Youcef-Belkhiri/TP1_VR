@@ -12832,3 +12832,39 @@ Memory consumption went from 173.7 MB to 168.1 MB.
 Total: 38.625600 ms (FindLiveObjects: 1.246600 ms CreateObjectMapping: 1.949900 ms MarkObjects: 29.831800 ms  DeleteObjects: 5.595200 ms)
 
 Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 1681.172300 seconds.
+  path: Assets/Scripts/TP3/HapticFeedbackManager.cs
+  artifactKey: Guid(b378c1dd4f3e13845b769bf43d57f6b9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scripts/TP3/HapticFeedbackManager.cs using Guid(b378c1dd4f3e13845b769bf43d57f6b9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7fa86001ce884b984ef216bafe754734') in 1.5081809 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/Scenes/TP3.unity
+  artifactKey: Guid(de5d3324dd5455740a9c8d76e54353b5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/TP3.unity using Guid(de5d3324dd5455740a9c8d76e54353b5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '12b5c5a95a371ac1ae0a5635ac0ef575') in 0.0458274 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Scripts/TP3/ScoreManager.cs
+  artifactKey: Guid(784da7710297a444b9995519b3c8e8b7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scripts/TP3/ScoreManager.cs using Guid(784da7710297a444b9995519b3c8e8b7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '357f5d8c969bfd1c7cfb22023db05ecb') in 0.0087326 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Scripts/TP3/WallObstacle.cs
+  artifactKey: Guid(de405ad9f47702241bcd6ac47bb15bbe) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scripts/TP3/WallObstacle.cs using Guid(de405ad9f47702241bcd6ac47bb15bbe) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7325dc3edd6c2f482459851e017d9db0') in 0.0204103 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

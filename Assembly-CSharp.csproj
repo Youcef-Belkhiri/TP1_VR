@@ -56,6 +56,7 @@
     <Compile Include="Assets\Scripts\TP2\PatrolMovement.cs" />
     <Compile Include="Assets\Scripts\TP2\FloatingMenu.cs" />
     <Compile Include="Assets\VRTemplateAssets\Scripts\XRPokeFollowAffordanceFill.cs" />
+    <Compile Include="Assets\Scripts\TP3\WallObstacleVisualEffect.cs" />
     <Compile Include="Assets\Scripts\TP2\ProximityDetector.cs" />
     <Compile Include="Assets\Scripts\TP3\ScoreManager.cs" />
     <Compile Include="Assets\VRTemplateAssets\Scripts\BezierCurve.cs" />
@@ -70,7 +71,6 @@
     <Compile Include="Assets\VRTemplateAssets\Scripts\CalloutGazeController.cs" />
     <Compile Include="Assets\Scripts\TP3\HapticFeedbackManager.cs" />
     <Compile Include="Assets\VRTemplateAssets\Scripts\StepManager.cs" />
-    <Compile Include="Assets\Scripts\TP3\WallObstacle.cs" />
     <Compile Include="Assets\VRTemplateAssets\Scripts\AnchorVisuals.cs" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />

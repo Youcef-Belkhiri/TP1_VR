@@ -6,14 +6,14 @@ public class Projectile : MonoBehaviour
     private bool _disabled = false;
     private Rigidbody _rb;
     
-    private WallObstacle _wallObstacle;
+    private WallObstacleVisualEffect _wallObstacleVisualEffect;
     
     private void Start()
     {
         _initialPosition = transform.position;
         _rb = GetComponent<Rigidbody>();
         
-        _wallObstacle = FindAnyObjectByType<WallObstacle>();
+        _wallObstacleVisualEffect = FindAnyObjectByType<WallObstacleVisualEffect>();
     }
 
     private void OnTriggerEnter(Collider other)
@@ -47,7 +47,7 @@ public class Projectile : MonoBehaviour
         
         // negative haptic feedback
         HapticFeedbackManager.Instance.PlayHapticFeedback(1, 1);
-        _wallObstacle?.OnBallFailed();
+        _wallObstacleVisualEffect?.OnBallFailed();
     }
     
     private void OnSuccess(TargetExercice3 target)

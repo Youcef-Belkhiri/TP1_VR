@@ -1,7 +1,7 @@
 using System.Collections;
 using UnityEngine;
 
-public class WallObstacle : MonoBehaviour
+public class WallObstacleVisualEffect : MonoBehaviour
 {
     private Renderer _renderer;
     private Color _color;
